@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display';
+}
+
+/* cabeçalho */
+header {
+    background-color: #051540;
+}
+li {
+    list-style: none;
+}
+header .navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-link {
+    transition: 0.5s ease;
+}
+.nav-link:hover {
+    color: #D3D3D3;
+    font-size: 20px;
+}
+#burguer {
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+}
+#burguer :hover {
+    background-color: white;
+    color: black;
+}
+
+/* main conteudo*/
+.home {
+    background-color: #d8d6d6;
+}
+main div {
+    background-color: #d8d6d6;
+    height: 2000px;
+}
+.fundo {
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    border-right: 5px solid pink;
+    border-left: 5px solid pink;
+}
+.img-circulo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 750px;
+    left: 20px;
+}
+.img-comp {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 780px;
+    left: 50px;
+}
+.veja-mais p {
+    color: #d8d6d6;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 785px;
+    left: 750px;
+    font-size: 40px;
+}
+.veja-mais img {
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    top: 750px;
+    left: 45%;
+    border-radius: 15px;
+    background-color: #051540;
+}
+.branco {
+    background-color: #051540;
+    height: 100px;
+}
+.blocos {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d8d6d6;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 800px;
+}
+.qua {
+    background-color: #051540;
+    width: 300px;
+    height: 400px;
+    border: solid #d2d8ff 10px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 0px 20px 10px blue;
+}
+main div a {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+main .material-symbols-outlined {
+    color: #fff;
+    font-size: 140px;
+}
+
+
+/*rodape*/
+footer {
+    background-color: #051540;
+    color: #fff;
+    height: 300px;
+    padding: 15px 40px 20px 40px;
+    box-shadow: -10px -10px 10px 20px #051540;
+}
+footer li img {
+    width: 20px;
+    height: 20px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+.ajuda {
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-size: 27.2px;
+}
+.i-privacidade {
+    padding-top: 70px;
+    font-size: 13.2px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.idioma {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+.idioma img {
+    width: 25px;
+    height: 20px;
+}
+.i-termos {
+    padding-top: 180px;
+    font-size: 13.2px;
+}
+.lista {
+    padding: 5px;
+    font-size: 18.5px;
+}
+.lista li a {
+    position: relative;
+    top: -6px;
+}
+.n {
+    padding-left: 9px;
+}
+.i {
+    padding-left: 9px;
+}
+
+/*fim do rodape*/
+
+
+@media(max-width:768px) {
+    footer {
+        height: 350px;
+        padding: 25px 7px 10px 7px;
+    }
+    .idioma {
+        position: relative;
+        left: -1px;
+        right: 5px;
+    }
+    .i-termos {
+        padding-top: 182px;
+        position: relative;
+        right: -35px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .menu-bar {
+        display: block;
+    }
+    .menu-bar img {
+        width: 60px;
+        height: 60px;
+    }
+    #lista {
+        display: none;
+        text-align: left;
+    }
+    .menu-bar .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        width: 0;
+        transition: width 0.5s;
+        position: fixed;
+        height: 100%;
+    }
+    .menu-bar:hover .menu-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%;
+        background: black;
+    }
+    #burguer {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #burguer :hover {
+        background-color: white;
+        color: black;
+    }
+}
