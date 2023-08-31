@@ -59,9 +59,9 @@ main div {
     height: 2000px;
 }
 .fundo {
-    background-size: cover;
+    
     width: 100%;
-    height: 40%;
+    height: 600px;
     border-right: 5px solid pink;
     border-left: 5px solid pink;
 }
