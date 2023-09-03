@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- links -->
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../styles/redes.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <title>Redes Sociais - JDEVs</title>
+</head>
+
+
+<!-- cabeçalho -->
+
+<body>
+    <header>
+        <!-- botão -->
+        <nav class="navbar">
+            <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+            <a href="#" class="logo">JDEVs</a>
+            <div></div>
+            <menu id="lista">
+                <!-- lista -->
+                <ul class="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+
+            </menu>
+        </nav>
+    </header>
+
+    <!-- javascript -->
+    <script>
+        function clickMenu() {
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            } else {
+                lista.style.display = 'block'
+            }
+        }
+    </script>
+    <!-- conteudo -->
+    <main>
+        
+    </main>
+
+<footer>
+    <div class="roda">
+        <h3 class="ajuda">Precisa de Suporte?</h3>
+
+        <div class="container">
+            <ul class="lista">
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        chat
+                    </span>
+                    <a href="#">Chat online</a>
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        business_center
+                    </span>
+                    <a href="#">Email de Contato</a>
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">
+                        monetization_on
+                    </span>
+                    <a href="#">Ajude a Proposta</a>
+                </li>
+
+                <li>
+                    <img src="../img/zap.png" alt="">
+                    <a href="#" class="n"> Número de Contato</a>
+                </li>
+
+                <li>
+                    <img src="../img/insta.png" alt="">
+                    <a href="#" class="i"> Insta</a>
+                </li>
+
+                <li class="i-privacidade">
+                    &#128712 Privacidade
+                </li>
+            </ul>
+
+            <ul class="roda-2">
+                <li>
+                    <div class="idioma">
+                        <img src="../img/brasil.png" alt="">
+                        <h3>Português - BR</h3>
+                        <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                </li>
+                <li class="i-termos">
+                    &#128712 Termos da Loja Online
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
