@@ -90,6 +90,28 @@ header .navbar a {
     left: 50px;
 }
 
+.titulo-1{
+    text-align: center;
+    font-size: 45px;
+    color: #38b6ff;
+    background-color: #051540;
+    position: relative;
+    left: 950px;
+    top: -560px;
+    padding: 0px;
+    border-radius: 30px;
+    width: 500px;
+    padding: 2px 0 2px 0;
+}
+.titulo-2{
+    font-size: 40px;
+    background-color: #38b6ff;
+    width: 360px;
+    position: relative;
+    left: 950px;
+    top: -460px;
+}
+/* 
 .veja-mais p {
     color: #d8d6d6;
     width: 250px;
@@ -107,7 +129,7 @@ header .navbar a {
     top: 600px;
     left: 45%;
     border-radius: 15px;
-}
+} */
 
 .branco {
     background-color: #051540;
