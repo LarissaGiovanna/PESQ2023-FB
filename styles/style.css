@@ -101,7 +101,8 @@ header .navbar a {
     border-radius: 30px;
     width: 500px;
     padding: 2px 0 2px 0;
-    text-shadow: red ;
+    text-shadow: #38b6ff 3px 0 10px;
+
 }
 
 .titulo-2 {
@@ -114,6 +115,7 @@ header .navbar a {
     top: -480px;
     color: #d2d8ff;
     z-index: 2;
+    text-shadow: #5e5a5a 3px 0 2px;
 }
 
 .bolinha-1 {
@@ -128,7 +130,7 @@ header .navbar a {
 }
 .bolinha-2{
     background-color: #051540;
-    width: 100px;
+    width: 105px;
     height: 100px;
     border-radius: 50%;
     position: relative;
