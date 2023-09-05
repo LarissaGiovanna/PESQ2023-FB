@@ -58,6 +58,46 @@ header .navbar a {
     background-color: white;
     color: black;
 }
+/* conteudo */
+.cont{
+    background-color: #D3D3D3;
+    height: 2500px;
+    padding-top: 30px
+}
+.txt{
+    background-color: #051540;
+    height: 2300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+}
+main div h4{
+    text-align: left;
+    font-size: 32px;
+}
+.first{
+    height: 600px;
+    width: 600px;
+    float: right;
+    margin: 40px;
+    border-radius: 20px;
+}
+.scnd{
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin: 40px;
+    border-radius: 20px;
+}
+.tres{
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin: 40px;
+    border-radius: 20px;
+}
 
 /*rodape*/
 footer {
