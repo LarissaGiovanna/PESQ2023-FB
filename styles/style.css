@@ -95,12 +95,13 @@ header .navbar a {
     color: #38b6ff;
     background-color: #051540;
     position: relative;
-    left: 790px;
+    left: 725px;
     top: -560px;
     padding: 0px;
     border-radius: 30px;
     width: 500px;
     padding: 2px 0 2px 0;
+    text-shadow: red ;
 }
 
 .titulo-2 {
@@ -109,41 +110,52 @@ header .navbar a {
     font-size: 40px;
     width: 360px;
     position: relative;
-    left: 870px;
+    left: 790px;
     top: -480px;
     color: #d2d8ff;
+    z-index: 2;
 }
 
 .bolinha-1 {
-    background-color: aqua;
-    width: 120px;
-    height: 120px;
+    background-color: #051540;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     position: relative;
-    left: 880px;
+    left: 780px;
     top: -600px;
+    z-index: 1;
 }
-
-/* 
-.veja-mais p {
-    color: #d8d6d6;
-    width: 250px;
+.bolinha-2{
+    background-color: #051540;
+    width: 100px;
     height: 100px;
-    position: absolute;
-    top: 785px;
-    left: 610px;
-    font-size: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 1010px;
+    top: -780px;
+    z-index: 1;
 }
-
-.veja-mais img {
-    width: 250px;
-    height: 100px;
-    position: absolute;
-    top: 600px;
-    left: 45%;
-    border-radius: 15px;
-} */
-
+.bolinha-3{
+    background-color: #051540;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    left: 1020px;
+    top: -768px;
+    z-index: 1;
+}
+.bolinha-4{
+    background-color: #051540;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 944px;
+    top: -878px;
+    z-index: 1;
+}
 .branco {
     background-color: #051540;
     height: 100px;
