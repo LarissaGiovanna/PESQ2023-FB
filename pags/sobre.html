@@ -44,13 +44,13 @@
         <!-- botão -->
         <nav class="navbar">
             <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-            <a href="pesq.html" class="logo">JDEVs</a>
+            <a href="../index.html" class="logo">JDEVs</a>
             <div></div>
             <menu id="lista">
                 <!-- lista -->
                 <ul class="menu">
                     <li class="nav-item">
-                        <a href="pesq.html" class="nav-link">Home</a>
+                        <a href="../index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="sobre.html" class="nav-link">Sobre</a>
@@ -63,17 +63,6 @@
             </menu>
         </nav>
     </header>
-
-    <!-- javascript -->
-    <script>
-        function clickMenu() {
-            if (lista.style.display == 'block') {
-                lista.style.display = 'none'
-            } else {
-                lista.style.display = 'block'
-            }
-        }
-    </script>
 
     <!-- conteudo -->
     <main>
@@ -127,6 +116,18 @@
                 </h4>
             </div>
         </div>
+
+        <!-- acessibilidade -->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
     </main>
 
     <!-- rodape -->
@@ -155,7 +156,7 @@
                         <span class="material-symbols-outlined">
                             monetization_on
                         </span>
-                        <a href="#">Ajude a Proposta</a>
+                        <a href="ajude.html">Ajude a Proposta</a>
                     </li>
 
                     <li>
@@ -192,7 +193,7 @@
 
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../scripts/sobre.js"></script>
 </body>
 
 </html>
