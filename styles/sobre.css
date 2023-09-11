@@ -75,6 +75,14 @@ main {
     margin-top: 70px;
 }
 
+#Texto-desalinhado{
+    margin-top: 270px;
+}
+
+#texto-pequeno{
+    margin-top: 50px;
+}
+
 main .txt .art img {
     height: 400px;
     width: 400px;
@@ -92,6 +100,7 @@ main .txt .art img {
 
 .txtum {
     margin-left: 20px;
+    text-align: justify;
 }
 
 #dir {
