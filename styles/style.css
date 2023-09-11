@@ -233,6 +233,10 @@ main .material-symbols-outlined {
     font-size: 35px;
 }
 
+.txt{
+    font-size: 27px;
+}
+
 main div h4 {
     font-size: 35px;
     font-family: Roboto;
@@ -260,10 +264,11 @@ main div h4 {
 /*rodape*/
 footer {
     background-color: #051540;
-    color: #fff;
+    color: #d8d6d6;
     height: 300px;
     padding: 15px 40px 20px 40px;
     box-shadow: -10px -10px 10px 20px #051540;
+    margin-top: 30px;
 }
 
 footer li img {
