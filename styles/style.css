@@ -65,7 +65,13 @@ header .navbar a {
     height: 650px;
 }
 
-.fundo {
+.inicio {
+    height: 645px;
+    background-image: url(../img/Fundo\ wallpaper\ pc.jpg);
+    background-size: 100%;
+
+}
+/* .fundo {
     width: 100%;
     height: 650px;
     border: 1px solid #BD61DD;
@@ -89,21 +95,18 @@ header .navbar a {
     top: 630px;
     left: 50px;
 }
-
+*/
 .titulo-1 {
     text-align: center;
     font-size: 45px;
     color: #38b6ff;
     background-color: #051540;
     position: relative;
-    left: 725px;
-    top: -560px;
     padding: 0px;
     border-radius: 30px;
     width: 500px;
     padding: 2px 0 2px 0;
     text-shadow: #38b6ff 3px 0 10px;
-
 }
 
 .titulo-2 {
@@ -112,8 +115,6 @@ header .navbar a {
     font-size: 40px;
     width: 360px;
     position: relative;
-    left: 790px;
-    top: -480px;
     color: #d2d8ff;
     z-index: 2;
     text-shadow: #5e5a5a 3px 0 2px;
@@ -125,56 +126,49 @@ header .navbar a {
     height: 130px;
     border-radius: 50%;
     position: relative;
-    left: 780px;
-    top: -600px;
     z-index: 1;
 }
-.bolinha-2{
+
+.bolinha-2 {
     background-color: #051540;
     width: 105px;
     height: 100px;
     border-radius: 50%;
     position: relative;
-    left: 1010px;
-    top: -780px;
     z-index: 1;
 }
-.bolinha-3{
+
+.bolinha-3 {
     background-color: #051540;
     width: 70px;
     height: 70px;
     border-radius: 50%;
     position: relative;
-    left: 1020px;
-    top: -768px;
     z-index: 1;
 }
-.bolinha-4{
+
+.bolinha-4 {
     background-color: #051540;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     position: relative;
-    left: 944px;
-    top: -878px;
     z-index: 1;
 }
-.circulo-titulo-1{
-    position: relative;
-    left: 710px;
-    top: -1590px;
+
+.circulo-titulo-1 {
+    position: absolute;
     width: 50px;
     height: 50px;
-    z-index: 2;
+    z-index: 4;
 }
-.circulo-titulo-2{
+
+.circulo-titulo-2 {
     background-color: red;
-    width: 45px;
-    height: 45px;
     z-index: 2;
-    position: relative;
-    left: 1090px;
-   
+    position: absolute;
+    width: 50px;
+    height: 50px;
 }
 .branco {
     background-color: #051540;
