@@ -96,6 +96,7 @@ main .txt .art img {
     color: #fff;
     padding: 30px;
     border-radius: 30px;
+    text-align: justify;
 }
 
 .txtum {
