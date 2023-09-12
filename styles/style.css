@@ -8,6 +8,7 @@
 /* cabeçalho */
 header {
     background-color: #051540;
+    z-index: 10;
 }
 
 li {
@@ -25,6 +26,7 @@ header .navbar a {
     align-items: center;
     justify-content: space-between;
     padding: 0 34px;
+
 }
 
 .logo {
@@ -61,7 +63,7 @@ header .navbar a {
 
 /* main conteudo*/
 .home {
-    background-color: #BD61DD;
+    background-color: #051540;
     height: 650px;
 }
 
@@ -69,39 +71,50 @@ header .navbar a {
     height: 645px;
     background-image: url(../img/Fundo\ wallpaper\ pc.jpg);
     background-size: 100%;
-
+    background-repeat: no-repeat;
+    position: relative;
 }
-/* .fundo {
-    width: 100%;
-    height: 650px;
+
+.hr {
+    background-color: #BD61DD;
     border: 1px solid #BD61DD;
-    box-shadow: 0px 0px 10px 4px #BD61DD;
-    padding-left: 2px;
-    padding-right: 2px;
+    box-shadow: 20px 0 50px 10px #BD61DD;
+    height: 630px;
+    width: 1px;
+    position: absolute;
+    top: 10px;
+}
+
+#dir {
+    position: absolute;
+    right: 0;
+    box-shadow: -20px 0 50px 10px #BD61DD;
 }
 
 .img-circulo {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
     position: absolute;
-    top: 600px;
+    top: 500px;
     left: 20px;
 }
 
 .img-comp {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 630px;
-    left: 50px;
+    width: 60px;
+    height: 60px;
+    top: 535px;
+    left: 55px;
 }
-*/
+
 .titulo-1 {
     text-align: center;
     font-size: 45px;
     color: #38b6ff;
     background-color: #051540;
-    position: relative;
+    position: absolute;
+    right: 120px;
+    top: 170px;
     padding: 0px;
     border-radius: 30px;
     width: 500px;
@@ -114,7 +127,9 @@ header .navbar a {
     text-align: center;
     font-size: 40px;
     width: 360px;
-    position: relative;
+    position: absolute;
+    right: 190px;
+    top: 270px;
     color: #d2d8ff;
     z-index: 2;
     text-shadow: #5e5a5a 3px 0 2px;
@@ -125,7 +140,9 @@ header .navbar a {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    right: 410px;
+    top: 290px;
     z-index: 1;
 }
 
@@ -134,7 +151,9 @@ header .navbar a {
     width: 105px;
     height: 100px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    right: 220px;
+    top: 250px;
     z-index: 1;
 }
 
@@ -143,7 +162,9 @@ header .navbar a {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    right: 250px;
+    top: 350px;
     z-index: 1;
 }
 
@@ -152,27 +173,33 @@ header .navbar a {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+    right: 345px;
+    top: 315px;
     z-index: 1;
 }
 
 .circulo-titulo-1 {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    right: 580px;
+    top: 190px;
+    width: 70px;
+    height: 70px;
     z-index: 4;
 }
 
 .circulo-titulo-2 {
-    background-color: red;
     z-index: 2;
     position: absolute;
+    right: 110px;
+    top: 150px;
     width: 50px;
     height: 50px;
 }
+
 .branco {
     background-color: #051540;
-    height: 100px;
+    height: 200px;
 }
 
 .blocos {
@@ -227,7 +254,7 @@ main .material-symbols-outlined {
     font-size: 35px;
 }
 
-.txt{
+.txt {
     font-size: 27px;
 }
 
@@ -237,24 +264,7 @@ main div h4 {
     text-align: justify;
 }
 
-.ace {
-    background-color: #d8d6d6;
-    display: flex;
-    justify-content: right;
-    height: 200px;
-}
-
-.ace img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    z-index: 1;
-}
-
-.espaco{
+.espaco {
     height: 120px;
     background-color: #d8d6d6;
 }
@@ -352,12 +362,14 @@ li a {
         position: relative;
         right: -35px;
     }
-    .fundo{
+
+    .fundo {
         background-size: cover;
         width: 400px;
         height: 380px;
     }
-    .home{
+
+    .home {
         height: 380px;
     }
 }
@@ -411,6 +423,33 @@ li a {
     }
 
     /* conteudo */
+    .titulo-1 {
+        font-size: 30px;
+        position: absolute;
+        top: 40px;
+        right: auto;
+        left: auto;
+        width: 300px;
+    }
+
+    .titulo-2 {
+        font-size: 30px;
+        position: absolute;
+        right: auto;
+        left: auto;
+        top: 90px;
+    }
+
+    .img-circulo {
+        position: absolute;
+        top: 370px;
+    }
+
+    .img-comp {
+        position: absolute;
+        top: 405px;
+    }
+
     .blocos {
         display: block;
         background-color: #d8d6d6;
@@ -432,6 +471,7 @@ li a {
         box-shadow: 0px 0px 20px 10px blue;
     }
 }
+
 /* @media (max-width:1256px) and (min-width:768px){
     .titulo-1 {
         text-align: center;
@@ -503,4 +543,3 @@ li a {
         z-index: 1;
     }
 } */
-
