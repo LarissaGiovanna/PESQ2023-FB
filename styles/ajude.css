@@ -58,6 +58,79 @@ header .navbar a {
     background-color: white;
     color: black;
 }
+/* conteudo */
+.prin{
+    background-color: #D3D3D3;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.foto{
+    background-color: #051540;
+    width: 650px;
+    height: 450px;
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    border-radius: 30px;
+}
+.foto h4{
+    color: #F9D4FA;
+    font-size: 32px;
+    text-shadow: 0px 1px 25px #BD61DD;
+    margin-top: 30px;
+}
+.foto h5{
+    color: #fff;
+    font-size: 19px;
+}
+.foto img{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.apoi{
+    background-color: #051540;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    right: 70px;
+    top: 150px;
+    border-radius: 30px;
+    color: white;
+}
+.apoi h1{
+    font-size: 48px;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 0px 1px 25px #BD61DD;
+}
+.apoi h5{
+    font-size: 19px;
+}
+.bord{
+    height: 150px;
+    width: 150px;
+    background-color: #474964;
+    border-radius: 50%;
+    border: 10px solid #474964;
+    border-right-color: blue;
+    border-top-color: blue;
+    transform: rotate(45deg);
+}
+.graf{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+}
+.apoi button{
+    cursor: pointer;
+}
 
 /*rodape*/
 footer {
