@@ -61,8 +61,19 @@ header .navbar a {
 main{
     background-color: #CFD6DD;
     height: 800px;
+    display: flex;
+}
+main div img{
+    width: 35px;
+    height: 35px;
+}
+.caixa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .redes{
+    display: flex;
     position: relative;
     top: 30px;
     left: 40%;
@@ -71,12 +82,48 @@ main{
     width: 300px;
     height: 50px;
     color: #38B6FF;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Big Shoulders Display';
     text-shadow: 3px 0 7px #38B6FF;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 2px;
+    padding-left: 60px;
+    gap: 10px;
 }
+.redes img{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 5px;
+}
+
+.colunas{
+    display: flex;
+    justify-content: space-between;
+    color: #F9D4FA;
+    text-shadow: 3px 0 7px #F9D4FA;
+    font-size: 28.3px;
+}
+
+
+.coluna-1{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    height: 250px;
+    
+    
+}
+.coluna-2{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    
+}
+
 
 /*rodape*/
 footer {
