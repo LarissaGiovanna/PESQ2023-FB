@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Big Shoulders Display';
+    
 }
 
 /* cabeçalho */
@@ -25,6 +25,7 @@ header .navbar a {
     align-items: center;
     justify-content: space-between;
     padding: 0 34px;
+    font-family: 'Big Shoulders Display';
 }
 
 .logo {
@@ -58,27 +59,28 @@ header .navbar a {
     background-color: white;
     color: black;
 }
-main{
+
+main {
     background-color: #CFD6DD;
-    height: 800px;
+    height: 600px;
     display: flex;
 }
-main div img{
-    width: 35px;
-    height: 35px;
-}
-.caixa{
+
+
+.caixa {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.redes{
+
+.redes {
+    font-family: 'Big Shoulders Display';
     display: flex;
     position: relative;
     top: 30px;
     left: 40%;
     background-color: #051540;
-    border-radius: 15px;
+    border-radius: 20px;
     width: 300px;
     height: 50px;
     color: #38B6FF;
@@ -90,38 +92,130 @@ main div img{
     padding-left: 60px;
     gap: 10px;
 }
-.redes img{
+
+.redes img {
     width: 50px;
     height: 50px;
     padding-bottom: 5px;
 }
+.colunas img{
+    width: 45px;
+    height: 45px;
+}
 
-.colunas{
+.colunas {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     display: flex;
     justify-content: space-between;
     color: #F9D4FA;
     text-shadow: 3px 0 7px #F9D4FA;
-    font-size: 28.3px;
+    font-size: 30px;
+    gap: 10px;
+    padding: 160px 185px 20px 150px ;
 }
 
 
-.coluna-1{
-    display: flex;
+.coluna-1 {
+   
+    display:flex;
     flex-direction: column;
-    background-color: red;
+    gap: 15px;
     padding: 10px 10px 10px 10px;
     width: 250px;
     height: 250px;
     
-    
 }
-.coluna-2{
-    display: flex;
+
+.coluna-2 {
+    display:flex;
     flex-direction: column;
-    background-color: black;
+    gap: 15px;
+    padding: 10px 100px 10px 0;
     width: 250px;
     height: 250px;
+}
+.insta{
     
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.insta p{
+    padding:3px 0 0 0;
+}
+.x{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.x p{
+    padding:3px 0 0 0;
+}
+.face{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.face p{
+    padding:3px 0 0 0;
+}
+.you{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.you p{
+    padding:3px 0 0 0;
+}
+.tiktok{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 1px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.t{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+.t p{
+    padding:3px 0 0 0;
+}
+.tiktok img{
+    width: 50px;
+    height: 60px;
 }
 
 
@@ -132,6 +226,7 @@ footer {
     height: 300px;
     padding: 15px 40px 20px 40px;
     box-shadow: -10px -10px 10px 20px #051540;
+    font-family: 'Big Shoulders Display';
 }
 
 footer li img {
