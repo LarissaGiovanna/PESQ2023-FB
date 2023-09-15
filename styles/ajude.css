@@ -127,30 +127,32 @@ header .navbar a {
 .bord {
     height: 150px;
     width: 150px;
-    background-color: #474964;
+    background-color: #fff;
     border-radius: 50%;
     border: 10px solid #474964;
     border-right-color: #5271FF;
     border-top-color: #5271FF;
-    animation: spin 10s linear;
-    
     transform: rotate(45deg);
     position: absolute;
     left: 30px;
     top: 30px;
 }
-.graf :hover{
-    animation-name: spin;
-    animation-duration: 7s;
-}
-
-.rotacao{
+.bord:hover{
+    animation: spin 10s infinite ease-in-out;
     transform: rotate(360deg);
 }
+/* .graf :hover{
+    animation-name: spin;
+    animation-duration: 7s;
+} */
+
+/* .rotacao{
+    transform: rotate(360deg);
+} */
 
 .graf {
-    height: 130px;
-    width: 130px;
+    height: auto;
+    width: auto;
     background-color: white;
     border-radius: 50%;
     /* z-index: 2; */
@@ -161,7 +163,10 @@ header .navbar a {
 
 .graf h2 {
     color: black;
-    padding: 40px;
+    padding: 0px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
     font-size: 40px;
 }
 

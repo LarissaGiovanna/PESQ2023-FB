@@ -7,7 +7,10 @@ function clickMenu() {
 }
 
 function girarGrafico(){
-    let girar = document.querySelector('.bord')
-    girar.classList.toggle('.rotacao')
+    let girar = document.querySelector('.graf')
+    let borda = document.querySelector('.bord')
+    borda.style.transform ='rotate(360deg)'
+    // girar.style.rotate="360deg"
+    // girar.classList.toggle('.rotacao')
 
 }
