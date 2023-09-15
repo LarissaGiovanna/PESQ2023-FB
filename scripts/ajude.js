@@ -5,3 +5,9 @@ function clickMenu() {
         lista.style.display = 'block'
     }
 }
+
+function girarGrafico(){
+    let girar = document.querySelector('.bord')
+    girar.classList.toggle('.rotacao')
+
+}
