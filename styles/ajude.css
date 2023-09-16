@@ -132,23 +132,12 @@ header .navbar a {
     border: 10px solid #474964;
     border-right-color: #5271FF;
     border-top-color: #5271FF;
-    transform: rotate(45deg);
+    transition: .9s;
     position: absolute;
     left: 30px;
     top: 30px;
 }
-.bord:hover{
-    animation: spin 10s infinite ease-in-out;
-    transform: rotate(360deg);
-}
-/* .graf :hover{
-    animation-name: spin;
-    animation-duration: 7s;
-} */
 
-/* .rotacao{
-    transform: rotate(360deg);
-} */
 
 .graf {
     height: auto;
@@ -191,10 +180,17 @@ header .navbar a {
     color: white;
     font-size: 27px;
     text-align: center;
+    transition: transform 0.3s ease;
 }
-.apoi h3{
+
+.apoi button:hover {
+    background-color: #3148fc;
+    transform: scale(1.1);
+}
+
+.apoi h3 {
     font-size: 40px;
-    text-align:center;
+    text-align: center;
     position: absolute;
     left: 90px;
     bottom: 70px;

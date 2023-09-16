@@ -6,11 +6,10 @@ function clickMenu() {
     }
 }
 
+let contador = 0
 function girarGrafico(){
-    let girar = document.querySelector('.graf')
-    let borda = document.querySelector('.bord')
-    borda.style.transform ='rotate(360deg)'
-    // girar.style.rotate="360deg"
-    // girar.classList.toggle('.rotacao')
+    let rotacao = document.querySelector('.bord')
+    contador+=360
+    rotacao.style.transform=`rotate(${contador}deg)`
 
 }
