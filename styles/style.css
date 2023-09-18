@@ -201,6 +201,11 @@ header .navbar a {
     background-color: #051540;
     height: 110px;
 }
+.icon{
+    content: "f186";
+    font-family: fontAwesome;
+    z-index: 3;
+}
 
 .blocos {
     display: flex;
