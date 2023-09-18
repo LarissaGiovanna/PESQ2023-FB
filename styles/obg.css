@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display';
+}
+
+/* cabeçalho */
+header {
+    background-color: #051540;
+}
+
+li {
+    list-style: none;
+}
+
+header .navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    color: #D3D3D3;
+    font-size: 20px;
+}
+/* animacao no apoie */
+#apoie{
+    background-color: #5271FF;
+    height: 35px;
+    width: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    animation: wiggle 2s linear infinite;
+    transition: 0.5s ease;
+    font-size: 16px;
+    text-align: center;
+}
+#apoie:hover{
+    height: 40px;
+    width: 55px;
+    font-size: 20px;
+}
+
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+/* fim da animacao do apoie */
+#burguer {
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer :hover {
+    background-color: white;
+    color: black;
+}
+/*rodape*/
+footer {
+    background-color: #051540;
+    color: #fff;
+    height: 300px;
+    padding: 15px 40px 20px 40px;
+    box-shadow: -10px -10px 10px 20px #051540;
+}
+
+footer li img {
+    width: 20px;
+    height: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.ajuda {
+    padding-bottom: 15px;
+    padding-left: 8px;
+    font-size: 27.2px;
+}
+
+.i-privacidade {
+    padding-top: 70px;
+    font-size: 13.2px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idioma {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+.idioma img {
+    width: 25px;
+    height: 20px;
+}
+
+.i-termos {
+    padding-top: 180px;
+    font-size: 13.2px;
+}
+
+.lista {
+    padding: 5px;
+    font-size: 18.5px;
+}
+
+.lista li a {
+    position: relative;
+    top: -6px;
+}
+
+.n {
+    padding-left: 9px;
+}
+
+.i {
+    padding-left: 9px;
+}
+
+/*fim do rodape*/
+
+
+@media(max-width:768px) {
+    footer {
+        height: 350px;
+        padding: 25px 7px 10px 7px;
+    }
+
+    .idioma {
+        position: relative;
+        left: -1px;
+        right: 5px;
+    }
+
+    .i-termos {
+        padding-top: 182px;
+        position: relative;
+        right: -35px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .menu-bar {
+        display: block;
+    }
+
+    .menu-bar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #lista {
+        display: none;
+        text-align: left;
+    }
+
+    .menu-bar .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        width: 0;
+        transition: width 0.5s;
+        position: fixed;
+        height: 100%;
+    }
+
+    .menu-bar:hover .menu-container {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70%;
+        background: black;
+    }
+
+    #burguer {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    #burguer :hover {
+        background-color: white;
+        color: black;
+    }
+}
