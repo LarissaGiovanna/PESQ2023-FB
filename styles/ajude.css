@@ -46,8 +46,9 @@ header .navbar a {
     color: #D3D3D3;
     font-size: 20px;
 }
+
 /* animacao no apoie */
-#apoie{
+#apoie {
     background-color: #1F3AFF;
     height: 35px;
     width: 50px;
@@ -57,43 +58,56 @@ header .navbar a {
     transition: 0.5s ease;
     text-align: center;
 }
-#apoie:hover{
+
+#apoie:hover {
     height: 40px;
     width: 55px;
     font-size: 20px;
 }
-#apoie a{
+
+#apoie a {
     transition: none;
 }
-#apoie a:hover{
+
+#apoie a:hover {
     font-size: 16px;
     color: #fff;
 }
 
 
 @keyframes balanço {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
 }
+
 /* fim da animacao do apoie */
 #burguer {
     color: white;
@@ -108,11 +122,17 @@ header .navbar a {
 }
 
 /* conteudo */
-.prin {
+main{
     background-color: #D3D3D3;
     height: 800px;
-    text-align: center;
+}
+.prin {
+    background-color: #D3D3D3;
+    height: 700px;
+}
+.cont{
     display: flex;
+    text-align: center;
     position: relative;
 }
 
@@ -320,7 +340,6 @@ li a {
 
 /*fim do rodape*/
 
-
 @media(max-width:768px) {
     footer {
         height: 350px;
@@ -386,5 +405,11 @@ li a {
     #burguer :hover {
         background-color: white;
         color: black;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .cont{
+        display: block;
     }
 }
