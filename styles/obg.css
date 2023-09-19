@@ -48,14 +48,13 @@ header .navbar a {
 }
 /* animacao no apoie */
 #apoie{
-    background-color: #5271FF;
+    background-color: #1F3AFF;
     height: 35px;
     width: 50px;
     padding: 7px;
     border-radius: 10px;
-    animation: wiggle 2s linear infinite;
+    animation: balanço 2s linear infinite;
     transition: 0.5s ease;
-    font-size: 16px;
     text-align: center;
 }
 #apoie:hover{
@@ -63,8 +62,16 @@ header .navbar a {
     width: 55px;
     font-size: 20px;
 }
+#apoie a{
+    transition: none;
+}
+#apoie a:hover{
+    font-size: 16px;
+    color: #fff;
+}
 
-@keyframes wiggle {
+
+@keyframes balanço {
   0%, 7% {
     transform: rotateZ(0);
   }
@@ -88,6 +95,7 @@ header .navbar a {
   }
 }
 /* fim da animacao do apoie */
+
 #burguer {
     color: white;
     display: none;
