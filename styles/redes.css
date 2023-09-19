@@ -276,6 +276,7 @@ main {
 }
 
 
+
 /*rodape*/
 footer {
     background-color: #051540;
@@ -370,15 +371,40 @@ li a {
         position: relative;
         right: -35px;
     }
+    .caixa{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+        height: 500px;
+    }
+    .caixa .redes{
+        position: absolute;
+        left: 40px;
+        top: 10px;
+
+    }
     .colunas{
         display: flex;
         flex-direction: column;
-        padding: auto;
-        
-        
+    }
+    .coluna-1{
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 35px;
+
+    }
+    .coluna-2{
+        position: absolute;
+        top: 290px;
+        left: 40px;
     }
     .coluna-in{
-        display: none;
+        height: 0;
+        width: 0;
     }
 }
 
