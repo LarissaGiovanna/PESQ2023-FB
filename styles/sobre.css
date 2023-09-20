@@ -236,6 +236,7 @@ li a {
 
 
 @media(max-width:768px) {
+    
     footer {
         height: 350px;
         padding: 25px 7px 10px 7px;
@@ -251,6 +252,22 @@ li a {
         padding-top: 182px;
         position: relative;
         right: -35px;
+    }
+    main{
+        height: auto;
+        padding-bottom: 50px;
+    }  
+    
+    .art{
+        display: flex;
+        flex-direction: column;   
+    }
+    main .txt .art img{
+        height: 300px;
+    width: 300px;
+    }
+    h4{
+        font-size: 20px;
     }
 }
 
