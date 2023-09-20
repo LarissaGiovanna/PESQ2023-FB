@@ -378,6 +378,7 @@ li a {
         flex-direction: column;
         padding: 0;
         justify-content: center;
+        align-items: center;
         height: 500px;
     }
     .caixa .redes{
@@ -400,7 +401,7 @@ li a {
     .coluna-2{
         position: absolute;
         top: 290px;
-        left: 40px;
+        left: 42px;
     }
     .coluna-in{
         height: 0;
