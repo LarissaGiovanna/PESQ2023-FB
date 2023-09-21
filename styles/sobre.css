@@ -272,7 +272,6 @@ li a {
     main {
         height: auto;
         padding-bottom: 50px;
-<<<<<<< HEAD
     }  
     .txt{
         height: auto;
@@ -286,19 +285,6 @@ li a {
     main .txt .art img{
         height: 250px;
     width: 350px;
-=======
-    }
-
-    .art {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: auto;
-    }
-
-    main .txt .art img {
-        height: 300px;
-        width: 300px;
->>>>>>> 1115c9891e3813bed6ce2efb46f4f0ec046ffe4c
     }
     .txt{
         position: relative;
