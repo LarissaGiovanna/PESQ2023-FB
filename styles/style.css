@@ -48,8 +48,9 @@ header .navbar a {
     color: #D3D3D3;
     font-size: 20px;
 }
+
 /* animacao no apoie */
-#apoie{
+#apoie {
     background-color: #1F3AFF;
     height: 35px;
     width: 50px;
@@ -59,43 +60,56 @@ header .navbar a {
     transition: 0.5s ease;
     text-align: center;
 }
-#apoie:hover{
+
+#apoie:hover {
     height: 40px;
     width: 55px;
     font-size: 20px;
 }
-#apoie a{
-    transition: none;
+
+#apoie a {
+    transition: 0.5s;
 }
-#apoie a:hover{
-    font-size: 16px;
-    color: #fff;
+
+#apoie:hover a {
+    font-size: 20px;
 }
+
 
 
 @keyframes balanço {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
 }
+
 /* fim da animacao do apoie */
 
 #burguer {
@@ -103,11 +117,16 @@ header .navbar a {
     display: none;
     text-align: center;
     padding: 10px;
+    z-index: 32;
 }
 
 #burguer :hover {
     background-color: white;
     color: black;
+}
+
+#sanduiche{
+    display: none;
 }
 
 /* main conteudo*/
@@ -250,7 +269,8 @@ header .navbar a {
     background-color: #051540;
     height: 110px;
 }
-.icon{
+
+.icon {
     content: "f186";
     font-family: fontAwesome;
     z-index: 3;
@@ -441,6 +461,31 @@ li a {
     #lista {
         display: none;
         text-align: left;
+    }
+
+    #sanduiche{
+        display: none;
+    }
+
+    .menu-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #051540;
+        transition: width 1.5rem;
+        position: fixed;
+        gap: 100px;
+        top: 0px;
+        left: 0;
+        z-index: 30;
+        width: 35%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .nav-item-b{
+
     }
 
     .menu-bar .menu-container {
