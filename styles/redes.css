@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 /* cabeçalho */
@@ -47,8 +47,9 @@ header .navbar a {
     color: #D3D3D3;
     font-size: 20px;
 }
+
 /* animacao no apoie */
-#apoie{
+#apoie {
     background-color: #1F3AFF;
     height: 35px;
     width: 50px;
@@ -58,43 +59,56 @@ header .navbar a {
     transition: 0.5s ease;
     text-align: center;
 }
-#apoie:hover{
+
+#apoie:hover {
     height: 40px;
     width: 55px;
     font-size: 20px;
 }
-#apoie a{
-    transition: none;
+
+#apoie a {
+    transition: 0.5s;
 }
-#apoie a:hover{
-    font-size: 16px;
-    color: #fff;
+
+#apoie:hover a {
+    font-size: 20px;
 }
+
 
 
 @keyframes balanço {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
 }
+
 /* fim da animacao do apoie */
 
 #burguer {
@@ -147,13 +161,14 @@ main {
     height: 50px;
     padding-bottom: 5px;
 }
-.colunas img{
+
+.colunas img {
     width: 45px;
     height: 45px;
 }
 
 .colunas {
-    
+
     font-family: 'Open Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
     display: flex;
@@ -162,32 +177,33 @@ main {
     text-shadow: 3px 0 7px #F9D4FA;
     font-size: 30px;
     gap: 10px;
-    padding: 160px 185px 20px 150px ;
+    padding: 160px 185px 20px 150px;
 }
 
 
 .coluna-1 {
-   
-    display:flex;
+
+    display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 10px 10px 10px 10px;
     width: 250px;
     height: 250px;
-    
+
 }
 
 .coluna-2 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 10px 100px 10px 0;
     width: 250px;
     height: 250px;
 }
-.insta{
-    
-    display:flex;
+
+.insta {
+
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -196,11 +212,13 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.insta p{
-    padding:3px 0 0 0;
+
+.insta p {
+    padding: 3px 0 0 0;
 }
-.x{
-    display:flex;
+
+.x {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -209,11 +227,13 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.x p{
-    padding:3px 0 0 0;
+
+.x p {
+    padding: 3px 0 0 0;
 }
-.face{
-    display:flex;
+
+.face {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -222,11 +242,13 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.face p{
-    padding:3px 0 0 0;
+
+.face p {
+    padding: 3px 0 0 0;
 }
-.you{
-    display:flex;
+
+.you {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -235,14 +257,17 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.you img{
+
+.you img {
     border-radius: 10px;
 }
-.you p{
-    padding:3px 0 0 0;
+
+.you p {
+    padding: 3px 0 0 0;
 }
-.tiktok{
-    display:flex;
+
+.tiktok {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -253,8 +278,8 @@ main {
     cursor: pointer;
 }
 
-.t{
-    display:flex;
+.t {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -263,13 +288,16 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.t p{
-    padding:3px 0 0 0;
+
+.t p {
+    padding: 3px 0 0 0;
 }
-.t img{
+
+.t img {
     border-radius: 10px;
 }
-.tiktok img{
+
+.tiktok img {
     width: 50px;
     height: 65px;
     border-radius: 20px;
@@ -371,7 +399,8 @@ li a {
         position: relative;
         right: -35px;
     }
-    .caixa{
+
+    .caixa {
         position: relative;
         width: 100%;
         display: flex;
@@ -381,29 +410,34 @@ li a {
         align-items: center;
         height: 500px;
     }
-    .caixa .redes{
+
+    .caixa .redes {
         position: absolute;
         left: 40px;
         top: 10px;
 
     }
-    .colunas{
+
+    .colunas {
         display: flex;
         flex-direction: column;
     }
-    .coluna-1{
+
+    .coluna-1 {
         display: flex;
         position: absolute;
         top: 70px;
         left: 35px;
 
     }
-    .coluna-2{
+
+    .coluna-2 {
         position: absolute;
         top: 290px;
         left: 42px;
     }
-    .coluna-in{
+
+    .coluna-in {
         height: 0;
         width: 0;
     }

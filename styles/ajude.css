@@ -66,14 +66,12 @@ header .navbar a {
 }
 
 #apoie a {
-    transition: none;
+    transition: 0.5s;
 }
 
-#apoie a:hover {
-    font-size: 16px;
-    color: #fff;
+#apoie:hover a {
+    font-size: 20px;
 }
-
 
 @keyframes balanço {
 
@@ -122,10 +120,11 @@ header .navbar a {
 }
 
 /* conteudo */
-main{
+main {
     background-color: #D3D3D3;
     height: 800px;
 }
+
 .prin {
     background-color: #D3D3D3;
     height: 700px;
@@ -402,13 +401,15 @@ li a {
 }
 
 @media only screen and (max-width:1080px) {
-    body{
+    body {
         background-color: #D3D3D3;
     }
-    main{
+
+    main {
         height: auto;
     }
-    .prin{
+
+    .prin {
         display: flex;
         flex-direction: column;
         justify-content: center;
