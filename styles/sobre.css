@@ -268,75 +268,67 @@ li a {
         position: relative;
         right: -35px;
     }
-
     main {
         height: auto;
         padding-bottom: 50px;
-    }  
-    .txt{
-        height: auto;
-        display: flex;
-        flex-direction: column;   
-        justify-content: center;
-        align-items: center ;
-       
-        
+        width: 100%;
     }
-    main .txt .art img{
+
+    main .txt .art img {
         height: 250px;
-    width: 350px;
+        width: 350px;
+        padding: 10px 10px 10px 10px;
     }
-    .txt{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow: hidden;
-    }
-    #Texto-desalinhado {
-    margin: auto;
-
-    }
-    #texto-pequeno {
-    margin: auto;
-
     h4 {
         font-size: 20px;
     }
-<<<<<<< HEAD
-    .txtum{
-        padding: auto;
-        margin: auto;
-        
-    }
-     #dir{
-        margin: auto;
-     }
-    #Texto-desalinhado{
-        margin: auto;
-        
-    }
-    
-    
-   
-    .art{
-        
+
+    .txt {
+        height: auto;
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        align-items: center ;
+        overflow: hidden; 
     }
-    
-    
-=======
-    .foto-1{
-        position: absolute;
-        top: 5px;
-        width: auto;
+
+    .art {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .txtum {
+        padding: 10px 10px 10px 10px;
+        margin: auto;
+    }
+
+    #dir {
+        margin: auto;
+    }
+
+    #Texto-desalinhado {
+        margin: 0;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: auto;
     }
->>>>>>> 1115c9891e3813bed6ce2efb46f4f0ec046ffe4c
-}
+
+    #texto-pequeno {
+        margin: auto;
+    }
+    .foto-1{
+        padding: 0 auto;
+    }
+
+   
 
 @media only screen and (max-width:768px) {
     .menu-bar {
