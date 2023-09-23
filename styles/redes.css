@@ -126,84 +126,86 @@ header .navbar a {
 main {
     background-color: #D3D3D3;
     height: 600px;
-    display: flex;
+    
 }
-
-
 .caixa {
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
-
-.redes {
+.redes{
     font-family: 'Big Shoulders Display';
     display: flex;
-    position: relative;
-    top: 30px;
-    left: 40%;
     background-color: #051540;
     border-radius: 20px;
     width: 300px;
     height: 50px;
     color: #38B6FF;
     font-size: 40px;
-    font-family: 'Big Shoulders Display';
-    text-shadow: 3px 0 7px #38B6FF;
-    text-align: center;
     padding-top: 2px;
     padding-left: 60px;
+    text-align: center;
+    margin-top: 20px;
     gap: 10px;
+    text-shadow: 3px 0 7px #38B6FF;
 }
-
 .redes img {
     width: 50px;
     height: 50px;
     padding-bottom: 5px;
 }
-
-.colunas img {
+.colunas img{
     width: 45px;
     height: 45px;
 }
-
-.colunas {
-
+.colunas{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #F9D4FA;
     text-shadow: 3px 0 7px #F9D4FA;
     font-size: 30px;
-    gap: 10px;
-    padding: 160px 185px 20px 150px;
+   gap: 300px;
+   padding: 10px 10px 10px 10px;
+   margin: 7%;
+    
 }
-
-
+.insta{
+    
+    display:flex;
+    width: 300px;
+    height: 60px;
+    background-color: #051540;
+    padding: 6px 2px 4px 20px;
+    border-radius: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
 .coluna-1 {
-
-    display: flex;
+   
+    display:flex;
     flex-direction: column;
     gap: 15px;
-    padding: 10px 10px 10px 10px;
-    width: 250px;
-    height: 250px;
-
+   
+    
+    
 }
 
 .coluna-2 {
-    display: flex;
+    display:flex;
     flex-direction: column;
     gap: 15px;
-    padding: 10px 100px 10px 0;
-    width: 250px;
-    height: 250px;
+    
 }
-
-.insta {
-
-    display: flex;
+.insta p{
+    padding:3px 0 0 0;
+}
+.x{
+    display:flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -212,13 +214,11 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-
-.insta p {
-    padding: 3px 0 0 0;
+.x p{
+    padding:3px 0 0 0;
 }
-
-.x {
-    display: flex;
+.face{
+    display:flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -227,13 +227,11 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-
-.x p {
-    padding: 3px 0 0 0;
+.face p{
+    padding:3px 0 0 0;
 }
-
-.face {
-    display: flex;
+.you{
+    display:flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -242,32 +240,14 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-
-.face p {
-    padding: 3px 0 0 0;
-}
-
-.you {
-    display: flex;
-    width: 300px;
-    height: 60px;
-    background-color: #051540;
-    padding: 6px 2px 4px 20px;
-    border-radius: 30px;
-    gap: 10px;
-    cursor: pointer;
-}
-
-.you img {
+.you img{
     border-radius: 10px;
 }
-
-.you p {
-    padding: 3px 0 0 0;
+.you p{
+    padding:3px 0 0 0;
 }
-
-.tiktok {
-    display: flex;
+.tiktok{
+    display:flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -278,8 +258,8 @@ main {
     cursor: pointer;
 }
 
-.t {
-    display: flex;
+.t{
+    display:flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -288,21 +268,17 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-
-.t p {
-    padding: 3px 0 0 0;
+.t p{
+    padding:3px 0 0 0;
 }
-
-.t img {
+.t img{
     border-radius: 10px;
 }
-
-.tiktok img {
+.tiktok img{
     width: 50px;
     height: 65px;
     border-radius: 20px;
-}
-
+} 
 
 
 /*rodape*/
