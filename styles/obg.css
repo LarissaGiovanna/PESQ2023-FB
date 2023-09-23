@@ -110,17 +110,24 @@ header .navbar a {
 
 /* fim da animacao do apoie */
 
+
 #burguer {
     color: white;
     display: none;
     text-align: center;
     padding: 10px;
+    z-index: 32;
 }
 
 #burguer :hover {
     background-color: white;
     color: black;
 }
+
+#sanduiche{
+    display: none;
+}
+
 
 /*rodape*/
 footer {
@@ -218,7 +225,8 @@ li a {
 }
 
 @media only screen and (max-width:768px) {
-    .menu-bar {
+
+       .menu-bar {
         display: block;
     }
 
@@ -230,6 +238,31 @@ li a {
     #lista {
         display: none;
         text-align: left;
+    }
+
+    #sanduiche{
+        display: none;
+    }
+
+    .menu-b{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #051540;
+        transition: width 1.5rem;
+        position: fixed;
+        gap: 100px;
+        top: 0px;
+        left: 0;
+        z-index: 30;
+        width: 35%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .nav-item-b{
+
     }
 
     .menu-bar .menu-container {
