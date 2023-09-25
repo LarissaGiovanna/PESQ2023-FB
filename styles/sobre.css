@@ -110,6 +110,10 @@ header .navbar a {
 
 /* fim da animacao do apoie */
 
+.menu-b{
+    display: none;
+}
+
 #burguer {
     color: white;
     display: none;
