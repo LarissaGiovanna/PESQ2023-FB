@@ -125,6 +125,9 @@ header .navbar a {
     display: none;
 }
 
+.menu-b{
+    display: none;
+}
 
 /* conteudo */
 main {
@@ -359,6 +362,14 @@ li a {
 }
 
 @media only screen and (max-width:768px) {
+    header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10000;
+    }
+    
     .menu-bar {
         display: block;
     }
@@ -394,9 +405,6 @@ li a {
         border-radius: 0 10px 10px 0;
     }
 
-    .nav-item-b{
-
-    }
 
     .menu-bar .menu-container {
         display: flex;
