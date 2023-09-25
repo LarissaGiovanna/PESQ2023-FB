@@ -1,7 +1,7 @@
 function clickMenu() {
-    if (lista.style.display == 'block') {
-        lista.style.display = 'none'
+    if (sanduiche.style.display == 'block') {
+        sanduiche.style.display = 'none'
     } else {
-        lista.style.display = 'block'
+        sanduiche.style.display = 'block'
     }
 }

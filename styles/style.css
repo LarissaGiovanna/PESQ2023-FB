@@ -129,6 +129,10 @@ header .navbar a {
     display: none;
 }
 
+.menu-b{
+    display: none;
+}
+
 /* main conteudo*/
 .home {
     background-color: #051540;
@@ -449,6 +453,13 @@ li a {
 }
 
 @media only screen and (max-width:768px) {
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
     .menu-bar {
         display: block;
     }

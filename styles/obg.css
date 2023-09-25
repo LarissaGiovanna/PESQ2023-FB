@@ -225,8 +225,14 @@ li a {
 }
 
 @media only screen and (max-width:768px) {
-
-       .menu-bar {
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+       
+    .menu-bar {
         display: block;
     }
 
