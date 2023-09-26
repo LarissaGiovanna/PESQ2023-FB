@@ -456,6 +456,7 @@ li a {
 
     main {
         height: auto;
+        overflow: hidden;
     }
 
     .prin {
@@ -473,5 +474,11 @@ li a {
 
     .apoi {
         margin-top: 10%;
+    }
+    .ace .enabled{
+        width: 100px;
+        height: 100px;
+        margin-right: 0;
+        background-color: red;
     }
 }
