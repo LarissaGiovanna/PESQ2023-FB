@@ -183,12 +183,14 @@ main .txt .art img {
 
 
 /*rodape*/
-footer {
+
+   footer {
     background-color: #051540;
     color: #fff;
     height: 300px;
     padding: 15px 40px 20px 40px;
     box-shadow: -10px -10px 10px 20px #051540;
+
 }
 
 footer li img {
@@ -202,79 +204,52 @@ li a {
     font-size: 16px;
     padding: 5px;
 }
-
-.ajuda {
-    padding-bottom: 15px;
-    padding-left: 8px;
-    font-size: 27.2px;
-}
-
-.i-privacidade {
-    padding-top: 70px;
-    font-size: 13.2px;
-}
-
-.container {
+.roda-1{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+}
+.ajuda{
+    font-size: 27.2px;
 }
 
 .idioma {
     display: flex;
     gap: 10px;
-    position: relative;
-    bottom: 40px;
-    right: 20px;
+    align-items: center;
+    text-align: center;
 }
-
-.idioma img {
-    width: 25px;
-    height: 20px;
-}
-
-.i-termos {
-    padding-top: 180px;
+.roda-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
     font-size: 13.2px;
 }
-
 .lista {
     padding: 5px;
     font-size: 18.5px;
 }
-
-.lista li a {
-    position: relative;
-    top: -6px;
-}
-
 .n {
+
     padding-left: 9px;
+
 }
 
 .i {
     padding-left: 9px;
+} 
+.lista li a {
+    position: relative;
+    top: -6px;
 }
-
 /*fim do rodape*/
 
 
 @media(max-width:768px) {
 
-    footer {
+       footer {
         height: 350px;
-        padding: 25px 7px 10px 7px;
-    }
-
-    .idioma {
-        position: relative;
-        left: -1px;
-        right: 5px;
-    }
-
-    .i-termos {
-        padding-top: 182px;
-        position: relative;
-        right: -35px;
+        padding: 25px 20px 10px 20px;
     }
     main {
         height: auto;
