@@ -311,6 +311,10 @@ li a {
     font-size: 16px;
     padding: 5px;
 }
+.idioma img {
+    width: 25px;
+    height: 20px;
+}
 .roda-1{
     display: flex;
     justify-content: space-between;
