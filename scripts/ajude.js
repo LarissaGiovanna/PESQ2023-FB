@@ -1,10 +1,8 @@
-function clickMenu() {
-    if (sanduiche.style.display == 'block') {
-        sanduiche.style.display = 'none'
-    } else {
-        sanduiche.style.display = 'block'
-    }
-}
+function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
 
 let contador = 0
 function girarGrafico(){
