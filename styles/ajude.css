@@ -136,8 +136,8 @@ main {
 }
 
 .prin {
-    background-color: #D3D3D3;
-    height: 700px;
+    background-color: transparent;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -453,6 +453,7 @@ li a {
 
     .apoi {
         margin-top: 10%;
+        margin-bottom: 120px;
     }
     .ace .enabled{
         width: 100px;

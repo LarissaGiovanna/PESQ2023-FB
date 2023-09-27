@@ -132,6 +132,9 @@ header .navbar a {
 }
 
 /* main conteudo*/
+main{
+    background-color: #D3D3D3;
+}
 .home {
     background-color: #051540;
     height: 650px;
@@ -319,6 +322,7 @@ main .material-symbols-outlined {
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
+    padding-bottom: 120px;
 }
 
 .text {
@@ -338,11 +342,6 @@ main div h4 {
     font-size: 35px;
     font-family: Roboto;
     text-align: justify;
-}
-
-.espaco {
-    height: 120px;
-    background-color: #d8d6d6;
 }
 
 /*rodape*/
@@ -615,11 +614,11 @@ li a {
         font-size: 40px;
         text-align: center;
     }
-    .ace .enabled{
+    /* .ace .enabled{
         background-color: red;
         margin-right: 200px;
         position: relative;
         right: 1000px;
         z-index: 30px;
-    }
+    } */
 }

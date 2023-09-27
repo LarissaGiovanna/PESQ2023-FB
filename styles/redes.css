@@ -111,7 +111,7 @@ header .navbar a {
 
 /* fim da animacao do apoie */
 
-.menu-b{
+.menu-b {
     display: none;
 }
 
@@ -128,24 +128,26 @@ header .navbar a {
     color: black;
 }
 
-#sanduiche{
+#sanduiche {
     display: none;
 }
 
 main {
     background-color: #D3D3D3;
     height: 600px;
-    
+
 }
+
 .caixa {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 120px;
 }
-.redes{
+
+.redes {
     font-family: 'Big Shoulders Display';
     display: flex;
     background-color: #051540;
@@ -161,16 +163,19 @@ main {
     gap: 10px;
     text-shadow: 3px 0 7px #38B6FF;
 }
+
 .redes img {
     width: 50px;
     height: 50px;
     padding-bottom: 5px;
 }
-.colunas img{
+
+.colunas img {
     width: 45px;
     height: 45px;
 }
-.colunas{
+
+.colunas {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
     display: flex;
@@ -178,14 +183,13 @@ main {
     color: #F9D4FA;
     text-shadow: 3px 0 7px #F9D4FA;
     font-size: 30px;
-   gap: 300px;
-   padding: 10px 10px 10px 10px;
-   margin: 7%;
-    
+    gap: 300px;
+    padding: 10px 10px 10px 10px;
+    margin: 7%;
 }
-.insta{
-    
-    display:flex;
+
+.insta {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -194,27 +198,26 @@ main {
     gap: 10px;
     cursor: pointer;
 }
+
 .coluna-1 {
-   
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 15px;
-   
-    
-    
 }
 
 .coluna-2 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
-.insta p{
-    padding:3px 0 0 0;
+
+.insta p {
+    padding: 3px 0 0 0;
 }
-.x{
-    display:flex;
+
+.x {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -223,11 +226,13 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.x p{
-    padding:3px 0 0 0;
+
+.x p {
+    padding: 3px 0 0 0;
 }
-.face{
-    display:flex;
+
+.face {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -236,11 +241,13 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.face p{
-    padding:3px 0 0 0;
+
+.face p {
+    padding: 3px 0 0 0;
 }
-.you{
-    display:flex;
+
+.you {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -249,14 +256,17 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.you img{
+
+.you img {
     border-radius: 10px;
 }
-.you p{
-    padding:3px 0 0 0;
+
+.you p {
+    padding: 3px 0 0 0;
 }
-.tiktok{
-    display:flex;
+
+.tiktok {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -267,8 +277,8 @@ main {
     cursor: pointer;
 }
 
-.t{
-    display:flex;
+.t {
+    display: flex;
     width: 300px;
     height: 60px;
     background-color: #051540;
@@ -277,17 +287,20 @@ main {
     gap: 10px;
     cursor: pointer;
 }
-.t p{
-    padding:3px 0 0 0;
+
+.t p {
+    padding: 3px 0 0 0;
 }
-.t img{
+
+.t img {
     border-radius: 10px;
 }
-.tiktok img{
+
+.tiktok img {
     width: 50px;
     height: 65px;
     border-radius: 20px;
-} 
+}
 
 
 /*rodape*/
@@ -311,16 +324,19 @@ li a {
     font-size: 16px;
     padding: 5px;
 }
+
 .idioma img {
     width: 25px;
     height: 20px;
 }
-.roda-1{
+
+.roda-1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
 }
-.ajuda{
+
+.ajuda {
     font-size: 27.2px;
 }
 
@@ -330,16 +346,19 @@ li a {
     align-items: center;
     text-align: center;
 }
-.roda-2{
+
+.roda-2 {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     font-size: 13.2px;
 }
+
 .lista {
     padding: 5px;
     font-size: 18.5px;
 }
+
 .n {
 
     padding-left: 9px;
@@ -348,11 +367,13 @@ li a {
 
 .i {
     padding-left: 9px;
-} 
+}
+
 .lista li a {
     position: relative;
     top: -6px;
 }
+
 /*fim do rodape*/
 
 
@@ -379,13 +400,13 @@ li a {
 }
 
 @media only screen and (max-width:768px) {
-    header{
+    header {
         position: sticky;
         top: 0;
         left: 0;
         width: 100%;
-    }  
-    
+    }
+
     .menu-bar {
         display: block;
     }
@@ -400,11 +421,11 @@ li a {
         text-align: left;
     }
 
-    #sanduiche{
+    #sanduiche {
         display: none;
     }
 
-    .menu-b{
+    .menu-b {
         display: flex;
         flex-direction: column;
         justify-content: center;
