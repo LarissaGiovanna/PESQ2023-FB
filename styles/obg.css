@@ -191,6 +191,10 @@ li a {
     position: relative;
     top: -6px;
 }
+.idioma img {
+    width: 25px;
+    height: 20px;
+}
 
 /*fim do rodape*/
 
